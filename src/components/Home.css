@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&display=swap');
+*{
+  font-family: 'Cantarell', sans-serif;
+}
+html{
+  overflow-x: hidden;
+}
+
+body{
+  overflow-x: hidden;
+}
+.video-player {
+    /* box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75); */
+    /* box-shadow: inset 0px 0px 103px 0px rgba(0,0,0,0.75); */
+     box-shadow: inset 0 0 10px
+    rgba(0,0,0,0.75);
+    margin-top: .2rem !important;
+}
+.container-fluid {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .img-white{
+    height: 37rem;
+    object-fit: cover;
+  }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    width: 28rem;
+    bottom: 67rem;
+    right: 78px;
+    background-color: white;
+    color: white;
+    /* padding-left: 140px; */
+    /* padding-right: 20px; */
+    padding: 3rem;
+  }
+  .blog{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Cantarell', sans-serif;
+    color: #000;
+  }
+  .blog-text{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: monospace;
+    color: #000;
+  }
+  .blog-btn{
+    font-size: 1.4rem;
+    padding: 0.7rem;
+    color: white;
+    background-color: black;
+    width: 10rem;
+  }
+  .s-u-s{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: system-ui;
+    margin-bottom: 2.3rem;
+  }
+  .sub{
+    font-size: 1.5rem;
+    font-family: cursive;
+    word-spacing: .3rem;
+  }
+  .email{
+    width: 52%;
+    height: 30%;
+    /* top: -11rem; */
+    /* margin-bottom: 11rem; */
+  }
+  .subcribe{
+    width: 21%;
+    height: 30%;
+    font-size: 1.5rem;
+    color: white !important;
+    background-color: black;
+  }
+  @media (min-width: 992px){
+ .col-lg-4 {
+    flex: 0 0 auto;
+    width: 11.333333%;
+} }
+
+.sm-img1{
+
+  margin-top: 8rem;
+  object-fit: cover;
+  width: 4rem;
+  height: 5rem;}
+
+.sm-img2{
+
+  margin-top: 1rem;
+  height: 5rem;
+  width: 4rem;
+  object-fit: cover;
+}
+
+.sm-img3{
+
+  margin-top: 1rem;
+  height: 5rem;
+  width: 4rem;
+  object-fit: cover;
+}
+
+.lg-img{
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+.input-group {
+  width: 32%;
+}
+.form-control{
+  padding: 0% !important;
+}
+.btn-outline-primary:hover {
+  color: black !important;
+  background-color: none !important;
+  border-color: lightgray !important;
+}
+.btn-outline-primary {
+  /* color: #0d6efd; */
+  border-color: lightgray;
+  background-color: transparent !important;
+}
+.btn-style{
+  background-color: transparent;
+    width: 23%;
+    padding: 0.4rem;
+    float: left;
+    margin-bottom: 3rem;
+}
+.add-cart{
+  background-color: black;
+  color: white;
+}
+.ful-col{
+  margin-top: 7rem;
+}
+.butn{
+  display: flex;
+  justify-content: space-between;
+  width: 11rem;
+}
+.colr-btn{
+  margin-top: 3rem;
+}
+.size{
+  margin-top: 4rem;
+  font-size: 1.5rem;
+}
+.add-cart{
+  width: 29rem;
+  height: 3rem;
+}
+.text{
+  margin-top: 2rem;
+  font-family: monospace;
+  text-align: justify;
+}
+
+.loader {
+	color: #008cff;
+	height: 40px;
+	position: absolute;
+	width: 30%;
+}
+.carousel-control-next-icon{
+  background-color: black;
+  display: none;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+  display: none;
+
+}
+.carousel-control-next{
+  width: 9%;
+  margin-top: 1.2rem !important;
+  margin-right: -1rem;
+  height: 3rem;
+}
+.carousel-control-prev{
+  margin-top: 1rem !important;
+  width: 10%;
+  margin-left: 0rem;
+  height: 3rem;
+
+}
+.pre{
+  color: #000;
+  margin-left: 0rem;
+  margin-bottom: 0rem;
+  font-size: 1.5rem;}
+  .next{
+    color: #000;
+    margin-bottom: 0.3rem;
+    font-size: 1.4rem;
+    /* margin-left: -1rem; */
+    margin-right: 0.3rem;
+  }
+
+  .hero__media video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+    
+.e-chip-list .e-chip.e-outline {
+  border-color: #e3165b;
+  border-width: 3px;
+}
+
+/* To customize single chip on selection */
+.e-chip-list.e-selection .e-chip.e-active {
+  background-color: #ffca1c;
+  color: #e3165b;
+}
+
+/* To customize multiple chip on selection */
+.e-chip-list .e-chip.e-active {
+  background-color: #e3165b;
+  color: white;
+}
+.carousel .thumb{
+  display: block !important;
+}
+/* .thumb{
+  /* width: 11rem!important; */
+
+.carousel-root{
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  margin-top: 5rem;
+}
+
+.carousel .carousel-slider{
+overflow: visible !important;
+}
+.carousel .control-next.control-arrow , .carousel .control-prev.control-arrow , .carousel .carousel-status , .carousel .control-dots .dot{
+  display: none !important;
+}
+@media only screen and (min-width: 2560px) {
+  .text-block{
+    bottom: 94rem;
+  }
+  .email::placeholder{
+    font-size: 1.4rem !important;
+  }
+  .subcribe {
+    height: 60% !important;
+  }
+  .email{
+    height: 59% !important;
+  }
+  .iconsarrow{
+    display: none;  }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+  .subcribe{
+    width: 26%;
+    height: 27%;
+   }
+   .email{
+    width: 61%;
+    height: 25%;
+   }
+   .carousel-control-prev{
+     width: 17%;
+   }
+   .carousel-control-next {
+margin-right: 1rem;
+   }
+  
+   .text-block{
+     width: 18rem;
+     height: 17rem;
+     bottom: 65rem;
+   }
+   .blog{
+font-size: 1.6rem;
+   }
+   .blog-text{
+font-size: 1rem;
+   }
+   .blog-btn{
+     padding: 0.2rem;
+   }
+   .iconsarrow{
+    display: none;  }
+    
+}
+@media only screen and (max-width: 768px) {
+  .email{
+    width: 48%;
+    height: 95%;
+  }
+  .subcribe{
+    width: 21%;
+    height: 98%;
+  }
+  .ful-col{
+    width: 100%;
+  }
+  .carousel-control-prev{
+    width: 34%;
+  }
+  .carousel-control-next{
+    width: 9rem;
+  }
+  .btn-text{
+    display: none;
+  }  
+}
+.carousal-item{
+  display: flex !important;
+}
+@media only screen and (max-width: 600px) {
+  .text-block {
+    position: absolute;
+    width: 24rem;
+    bottom: 40rem;
+    right: 24px;
+    background-color: white;
+    color: white;
+    /* padding-left: 140px; */
+    /* padding-right: 20px; */
+    padding: 0.9rem;
+    height: 22rem;
+}
+.email{
+  width: 69%;
+    height: 100%;
+}
+.subcribe{
+  width: 25%;
+    height: 100%;
+}
+.carousel-root{
+  flex-direction: initial !important;
+}
+
+.add-cart {
+  width: 21rem;
+}
+.btn-text {
+  display: none;
+}
+.iconsarrow{
+  color: white !important;
+  }
+
+}
+@media only screen and (max-width: 400px) {
+  .text-block {
+    position: absolute;
+    width: 21rem;
+    bottom: 40rem;
+    right: 24px;
+    background-color: white;
+    color: white;
+    /* padding-left: 140px; */
+    /* padding-right: 20px; */
+    padding: 0.9rem;
+    height: 18rem;
+}
+.blog{
+  font-size: 1.8rem;
+}
+.blog-text{
+  font-size: 1.4rem;
+}
+.email{
+  width: 68%;
+    height: 100%;
+}
+.subcribe{
+  width: 21%;
+    height: 100%;
+}
+.carousel-control-prev{
+  width: 37%;
+}
+
+}
+@media only screen and (max-width: 350px) {
+  .text-block {
+    position: absolute;
+    width: 18rem;
+    bottom: 41rem;
+    right: 16px;
+    background-color: white;
+    color: white;
+    /* padding-left: 140px; */
+    /* padding-right: 20px; */
+    padding: 0.9rem;
+    height: 18rem;
+}
+.blog{
+  font-size: 1.8rem;
+}
+.blog-text{
+  font-size: 1.4rem;
+}
+.s-u-s{
+  font-size: 2rem;
+}
+.email{
+  width: 73%;
+  height: 100%;
+  /* top: -11rem; */
+  /* margin-bottom: 11rem; */
+  margin-left: .4rem;
+}
+.subcribe{
+  height: 100%;
+  
+}
+.carousel-control-prev{
+  width: 43%;
+}
+.btn-style{
+  width: 28%;
+}
+.add-cart {
+  width: 17rem;
+}
+
+}
+
+@media screen and (max-width: 425px) {
+  .btn-text {
+    display: none;
+  }
+  .iconsarrow{
+  color: white;
+  }
+}
+.carousel-item{
+  display: block !important;
+}

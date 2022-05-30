@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+*{
+    font-family: 'Cantarell', sans-serif;}
+    html{
+        overflow-x: hidden;
+    }
+
+
+
+.logo{
+    width: 11rem;
+    object-fit: cover;
+}
+.navbar-nav {
+    padding-left: 90px;
+}
+.nav-item{
+    font-family: system-ui;
+    font-size: 1rem;
+    color: black !important;
+}
+.icons{
+    display: flex !important;
+    justify-content: space-between !important;
+    
+}
+.icon{
+    font-size: 1.4rem !important;
+    color: black !important;
+}
+.user{
+margin-right: 3rem;
+}
+
+.glass{
+margin-right: 3rem;
+}
+
+.bag{
+   margin-right: 7rem;
+}
+/* @media only screen and (max-width: px) {
+    .navbar{
+        width: 27rem;
+    }
+} */
+.close-menu{
+    display: initial;
+    color: #f9f9ff;
+    font-size: 1.6rem;
+    padding: 30px 0 20px 20px;
+}
+
+ @media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        flex-direction:column;
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+    
+     .collapse:not(.show) {
+        display: none !important;
+    }
+    .collapse ::after{
+        transition: transform 0.15s linear;
+    }
+    }
+    
+     .active{
+        right: 0;
+    }
+    
+    .btn-tog {
+        position: absolute;
+        top: 0px;
+        right: -220px;
+        width: 220px;
+        background: #ffff;
+        backdrop-filter: blur(4.5px);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.3s ease;
+        left: 0;
+    }
+    
+     
